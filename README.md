@@ -2,7 +2,7 @@
 
 This is a syntax highlighting lexer for the [Code::Blocks IDE](https://www.codeblocks.org/) supporting the particular dialect of STM8 assembly code used by the [ASxxxx](https://shop-pdp.net/ashtml/asxxxx.php) assembler. [SDCC](http://sdcc.sourceforge.net/)'s SDAS assemblers are also based on a fork of the ASxxxx assembler, so this also supports that.
 
-Stylable syntax features supported are:
+Syntax features recognised are:
 
 * Comments
 * Instructions
@@ -13,7 +13,7 @@ Stylable syntax features supported are:
 * Registers (A, X, Y, etc.)
 * Directives ('dot' keywords, e.g. ".area")
 
-Default highlighting colours are fairly abritrary - you will probably want to customise them. Colours can be customised in *Settings > Editor > Syntax highlighting*.
+Default highlighting colours are fairly arbitrary - you will probably want to customise them. Colours can be customised in *Settings > Editor > Syntax highlighting*.
 
 By default, *.asm and *.s files are highlighted (although, several other highlighters also match *.asm, so you may need to select this one manually if C::B chooses the wrong one). Additional file extension masks can be specified in the settings window (as mentioned above).
 
@@ -21,7 +21,7 @@ By default, *.asm and *.s files are highlighted (although, several other highlig
 
 1. Copy both the `.xml` and `.sample` files to installation location:
    * **Windows**: Copy files to the `%APPDATA%\CodeBlocks\share\codeblocks\lexers` folder. You may need to create the `lexers` folder if it doesn't already exist.
-   * **Linux  / BSD / macOS**: Sorry, no idea! I haven't used Code::Blocks on these platforms. If I had to guess, the files should be copied to wherever the user-specific `share\codeblocks\lexers` folder resides, probably somewhere in the user home directory (i.e. `~`).
+   * **Linux  / BSD / macOS**: Sorry, no idea! I haven't used Code::Blocks on these platforms. If I had to guess, the files should be copied to wherever the user-specific `share/codeblocks/lexers` folder resides, probably somewhere in the user home directory (i.e. `~`).
 2. Restart (or start) Code::Blocks.
 
 Once successfully installed, Code::Blocks should report in the status pane upon startup that the lexer was found and loaded without error. For example:
