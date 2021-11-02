@@ -1,5 +1,6 @@
-# ASxxxx STM8 Assembly Code Lexer for Code::Blocks IDE
-This is a syntax highlighting lexer for the Code::Blocks IDE supporting the particular dialect of STM8 assembly code used by the ASxxxx assembler. SDCC's SDAS assemblers are also based on a fork of the ASxxxx assembler, so this also supports that.
+# ASxxxx STM8 Assembly Code Syntax Highlighting Lexer for Code::Blocks IDE
+
+This is a syntax highlighting lexer for the [Code::Blocks IDE](https://www.codeblocks.org/) supporting the particular dialect of STM8 assembly code used by the [ASxxxx](https://shop-pdp.net/ashtml/asxxxx.php) assembler. [SDCC](http://sdcc.sourceforge.net/)'s SDAS assemblers are also based on a fork of the ASxxxx assembler, so this also supports that.
 
 Stylable syntax features supported are:
 
