@@ -1,3 +1,10 @@
+<!--
+Created by Basil Hussain, Nov 2021.
+https://github.com/basilhussain/codeblocks-asxxxx-stm8-asm-lexer
+
+This work is licenced under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence.
+For the full licence text, please see https://creativecommons.org/licenses/by/4.0/.
+-->
 <?xml version="1.0"?>
 <!DOCTYPE CodeBlocks_lexer_properties>
 <CodeBlocks_lexer_properties>
