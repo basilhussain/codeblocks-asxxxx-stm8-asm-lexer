@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_lexer_properties>
+<CodeBlocks_lexer_properties>
+	<Lexer name="ASxxxx STM8 Assembly" index="34" filemasks="*.asm,*.s">
+		<Style  name="Default"
+				index="0"
+				fg="0,0,0"
+				bg="255,255,255"
+				bold="0"
+				italics="0"
+				underlined="0"/>
+		<Style  name="Comment"
+				index="1"
+				fg="0,128,0"
+				italics="1"/>
+		<Style  name="Instruction"
+				index="6"
+				fg="0,0,255"
+				bold="1"/>
+		<Style  name="Identifier"
+				index="5"
+				fg="0,0,0"/>
+		<Style  name="Number"
+				index="2"
+				fg="192,64,0"/>
+		<Style  name="Operator"
+				index="4"
+				fg="0,0,0"
+				bold="1"/>
+		<Style  name="String"
+				index="3,13"
+				fg="64,128,64"/>
+		<Style  name="Register"
+				index="8"
+				fg="255,0,0"/>
+		<Style  name="Directive"
+				index="9,10"
+				fg="0,0,64"/>
+
+		<LanguageAttributes	LineComment=";" CaseSensitive="1"/>
+
+		<Keywords>
+			<!-- Instructions -->
+			<Set index="0" value="adc add addw and bccm bcp bcpl break bres bset btjf btjt call callf callr ccf clr clrw cp cpl cplw cpw dec decw div divw exg exgw halt inc incw int iret jp jpf jra jrc jreq jrf jrh jrih jril jrm jrmi jrnc jrne jrnh jrnm jrnv jrpl jrsge jrsgt jrsle jrslt jrt jruge jrugt jrule jrult jrv ld ldf ldw mov mul neg negw nop or pop popw push pushw rcf ret retf rim rlc rlcw rlwa rrc rrcw rrwa rvf sbc scf sim sla slaw sll sllw sra sraw srl srlw sub subw swap swapw tnz tnzw trap wfe wfi xor"/>
+			<!-- Registers -->
+			<Set index="2" value="a xl yl xh yh x y sp cc"/>
+			<!-- Directives -->
+			<Set index="3" value=".16bit .24bit .32bit .3byte .4byte .area .ascii .ascis .asciz .assume .bank .blk3 .blk4 .blkb .blkw .bndry .byte .db .define .ds .dw .else .end .endif .equ .error .even .fcb .fcc .fdb .gblequ .globl .hilo .if .ifb .ifdef .ifdif .iff .ifidn .ifnb .ifndef .ift .iftf .ifxx .incbin .include .lclequ .list .local .lohi .module .msb .msg .nlist .odd .org .page .quad .radix .rmb .rs .sbttl .setdp .str .strs .strz .title .triple .undefine .word"/>
+		</Keywords>
+
+		<SampleCode value="lexer_asxxxx_stm8.sample"/>
+	</Lexer>
+</CodeBlocks_lexer_properties>

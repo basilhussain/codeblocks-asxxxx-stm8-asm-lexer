@@ -1,0 +1,29 @@
+.module somename
+
+.include "othersrc.asm"
+
+.area DATA
+
+foo: .blkw1
+bar: .blkw1
+
+.area CODE
+
+a_label:
+	; This is a comment.
+	ld a, foo+1
+	sub a, #1
+	ld foo+1, a       ; TODO: fix this
+	ld a, foo+0
+	sbc a, #0
+	ld foo+0, a
+
+	; Another comment line.
+	ld a, (x)
+	incw x
+	ld (y), a
+	incw y
+	
+	mov bar, #0x9F
+
+	jra a_label
