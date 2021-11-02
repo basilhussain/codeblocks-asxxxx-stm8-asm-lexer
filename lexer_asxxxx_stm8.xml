@@ -45,9 +45,10 @@
 			<!-- Registers -->
 			<Set index="2" value="a xl yl xh yh x y sp cc"/>
 			<!-- Directives -->
-			<Set index="3" value=".16bit .24bit .32bit .3byte .4byte .area .ascii .ascis .asciz .assume .bank .blk3 .blk4 .blkb .blkw .bndry .byte .db .define .ds .dw .else .end .endif .equ .error .even .fcb .fcc .fdb .gblequ .globl .hilo .if .ifb .ifdef .ifdif .iff .ifidn .ifnb .ifndef .ift .iftf .ifxx .incbin .include .lclequ .list .local .lohi .module .msb .msg .nlist .odd .optsdcc .org .page .quad .radix .rmb .rs .sbttl .setdp .str .strs .strz .title .triple .undefine .word"/>
+			<Set index="3" value=".16bit .24bit .32bit .3byte .4byte .area .ascii .ascis .asciz .assume .bank .blk3 .blk4 .blkb .blkw .bndry .byte .db .define .ds .dw .else .end .endif .endm .equ .error .even .fcb .fcc .fdb .gblequ .globl .hilo .if .ifb .ifdef .ifdif .iff .ifidn .ifnb .ifndef .ift .iftf .ifxx .incbin .include .irp .irpc .lclequ .list .local .lohi .macro .mcall .mdelete .mexit .mlib .module .msb .msg .narg .nchr .nlist .ntyp .nval .odd .optsdcc .org .page .quad .radix .rept .rmb .rs .sbttl .setdp .str .strs .strz .title .triple .undefine .word"/>
 		</Keywords>
 
 		<SampleCode value="lexer_asxxxx_stm8.sample"/>
 	</Lexer>
 </CodeBlocks_lexer_properties>
+
