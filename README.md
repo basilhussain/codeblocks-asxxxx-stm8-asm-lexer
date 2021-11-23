@@ -21,13 +21,14 @@ By default, *.asm and *.s files are highlighted (although, several other highlig
 
 1. Copy both the `.xml` and `.sample` files to installation location:
    * **Windows**: Copy files to the `%APPDATA%\CodeBlocks\share\codeblocks\lexers` folder. You may need to create the `lexers` folder if it doesn't already exist.
-   * **Linux  / BSD / macOS**: Sorry, no idea! I haven't used Code::Blocks on these platforms. If I had to guess, the files should be copied to wherever the user-specific `share/codeblocks/lexers` folder resides, probably somewhere in the user home directory (i.e. `~`).
+   * **Linux**: Copy files to the `~/.codeblocks/share/codeblocks/lexers` directory. You may need to create one or more of the sub-directories under `~/.codeblocks/`. Ubuntu users should note that they seem instead to locate it at `~/.config/codeblocks/`.
+   * **BSD / macOS**: Sorry, no idea! I haven't used Code::Blocks on these platforms. If I had to guess, it would also probably be somewhere in the user's home directory.
 2. Restart (or start) Code::Blocks.
 
 Once successfully installed, Code::Blocks should report in the status pane upon startup that the lexer was found and loaded without error. For example:
 
 ```
-Scanning for lexers in C:\Users\<your username>\AppData\Roaming\CodeBlocks\share\codeblocks/lexers/...
+Scanning for lexers in C:\Users\<username>\AppData\Roaming\CodeBlocks\share\codeblocks/lexers/...
 Found 1 lexers
 Scanning for lexers in C:\Program Files\CodeBlocks\share\codeblocks/lexers/...
 Found 61 lexers
